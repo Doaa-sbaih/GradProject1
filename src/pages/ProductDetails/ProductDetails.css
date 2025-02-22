@@ -1,0 +1,39 @@
+/* تنسيق الصور المصغرة */
+.thumbnail {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.thumbnail.active {
+  border-color: #007bff;
+}
+
+/* تنسيق الأزرار */
+.buttons-container .btn {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buttons-container .btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* تنسيق المتجر */
+.store-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.store-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.store-link:hover {
+  text-decoration: underline;
+}

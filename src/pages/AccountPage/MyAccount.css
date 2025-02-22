@@ -1,0 +1,77 @@
+.my-account {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .my-account h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #262626;
+    text-align: center;
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .user-info {
+    flex: 1;
+  }
+  
+  .user-info p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .edit-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .edit-form input {
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .edit-button,
+  .save-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover,
+  .save-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .save-button {
+    background-color: #28a745;
+  }
+  
+  .save-button:hover {
+    background-color: #218838;
+  }
